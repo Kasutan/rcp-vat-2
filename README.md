@@ -1,16 +1,9 @@
-=== RCP VAT ===
-Contributors: munger41, kasutan
-Donate link: http://www.maxiblog.fr
-Tags: restrict,content,pro,value,added,tax,vat,tva,rcp
-Requires at least: 3.6
-Tested up to: 4.9
-Stable tag: 1.0.2
-License: GPLv2 or later
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
+## Description
 
-VAT management in Stripe for Restrict Content Pro plugin. Sell inside EU respecting the rules.
+This WordPress plugin is based on RCP VAR by Termel:
+https://wordpress.org/plugins/rcp-vat/
+http://www.maxiblog.fr/
 
-== Description ==
 
 This plugin [implements EU VAT rules](http://europa.eu/youreurope/business/vat-customs/buy-sell/index_en.htm "EU VAT rules") for [Restrict Content Pro plugin](https://restrictcontentpro.com/ "RCP"), working with Stripe gateway.
 Implements VIES VAT business number [on the fly validation](http://ec.europa.eu/taxation_customs/vies/vieshome.do?locale=fr "VIES") using [dannyvankooten php code](https://github.com/dannyvankooten/vat.php).
@@ -18,17 +11,11 @@ Implements VIES VAT business number [on the fly validation](http://ec.europa.eu/
 Make sure your web server uses [soap-php module](http://php.net/manual/en/book.soap.php "Soap PHP")
 
 
-== Installation ==
+## Installation
 
 As usual, but make sure your web server uses [soap-php module](http://php.net/manual/en/book.soap.php "Soap PHP")
 
-== Frequently Asked Questions ==
-
-== Screenshots ==
-
-1. Parameters added into payment RCP tab settings.
-
-== Changelog ==
+## Changelog
 * 2.0.0 - additional functionality
     - apply vat on final price (level price + fees - discounts) 
     - store vat info in RCP payments meta table
