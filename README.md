@@ -1,8 +1,7 @@
 ## Description
 
-This WordPress plugin is based on RCP VAR by Termel:
-https://wordpress.org/plugins/rcp-vat/
-http://www.maxiblog.fr/
+This WordPress plugin is based on [RCP VAT](https://wordpress.org/plugins/rcp-vat/) by [Termel](
+http://www.maxiblog.fr/).
 
 
 This plugin [implements EU VAT rules](http://europa.eu/youreurope/business/vat-customs/buy-sell/index_en.htm "EU VAT rules") for [Restrict Content Pro plugin](https://restrictcontentpro.com/ "RCP"), working with Stripe gateway.
